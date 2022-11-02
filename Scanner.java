@@ -7,8 +7,8 @@ public class MyScanner
         Scanner scanner = new Scanner(System.in);
         scanner.useDelimiter(",|\n");
         while (true) {
-            String word = scanner.next();
-            System.out.println(word);
+            String nxt = scanner.next();
+            System.out.println(nxt);
         }
     }
 
